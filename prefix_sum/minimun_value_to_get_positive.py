@@ -1,5 +1,5 @@
 class Solution:
-    def minStartValue(self, nums: List[int]) -> int:
+    def minStartValue(self, nums) -> int:
         prefix_sum={}
         prefix_sum[-1]=0
         for i in range(len(nums)):
